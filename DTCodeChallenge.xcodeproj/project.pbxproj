@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AE3C5BBF16A8A42E2EEE4BD /* Pods_DTCodeChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E640B16A4315689812650847 /* Pods_DTCodeChallenge.framework */; };
+		A4B08243025726ED9F6FDCB6 /* Pods_DTCodeChallenge_DTCodeChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46AB6B4EA28F921660767E4 /* Pods_DTCodeChallenge_DTCodeChallengeUITests.framework */; };
+		A559176C65348A17183A9431 /* Pods_DTCodeChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21574089317C3E8BC4B5D2F7 /* Pods_DTCodeChallengeTests.framework */; };
+		AF279EE228BF20BE0034AAB3 /* DTCodeChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF279EE128BF20BE0034AAB3 /* DTCodeChallengeApp.swift */; };
+		AF279EE428BF20BE0034AAB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF279EE328BF20BE0034AAB3 /* ContentView.swift */; };
+		AF279EE628BF20C00034AAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF279EE528BF20C00034AAB3 /* Assets.xcassets */; };
+		AF279EE928BF20C00034AAB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF279EE828BF20C00034AAB3 /* Preview Assets.xcassets */; };
+		AF279EF328BF20C00034AAB3 /* DTCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF279EF228BF20C00034AAB3 /* DTCodeChallengeTests.swift */; };
+		AF279EFD28BF20C00034AAB3 /* DTCodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF279EFC28BF20C00034AAB3 /* DTCodeChallengeUITests.swift */; };
+		AF279EFF28BF20C00034AAB3 /* DTCodeChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF279EFE28BF20C00034AAB3 /* DTCodeChallengeUITestsLaunchTests.swift */; };
+		AF5E9FA828BF2744004E88BD /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E9FA728BF2744004E88BD /* GoogleMapView.swift */; };
+		AF764A3628C0180500BA43EA /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF764A3528C0180500BA43EA /* AnimationView.swift */; };
+		AFF1CF5428BF3E5B00CB0C8E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF1CF5328BF3E5B00CB0C8E /* DataModel.swift */; };
+		AFF1CF5628BF625400CB0C8E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = AFF1CF5528BF625400CB0C8E /* data.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF279EEF28BF20C00034AAB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF279ED628BF20BE0034AAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF279EDD28BF20BE0034AAB3;
+			remoteInfo = DTCodeChallenge;
+		};
+		AF279EF928BF20C00034AAB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF279ED628BF20BE0034AAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF279EDD28BF20BE0034AAB3;
+			remoteInfo = DTCodeChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1346F03AC1F4689FBE9E6B40 /* Pods-DTCodeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTCodeChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-DTCodeChallengeTests/Pods-DTCodeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E01CE94D29D91359643819E /* Pods-DTCodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTCodeChallenge.release.xcconfig"; path = "Target Support Files/Pods-DTCodeChallenge/Pods-DTCodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		21574089317C3E8BC4B5D2F7 /* Pods_DTCodeChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTCodeChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E67393B31F4025033339B69 /* Pods-DTCodeChallenge-DTCodeChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTCodeChallenge-DTCodeChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-DTCodeChallenge-DTCodeChallengeUITests/Pods-DTCodeChallenge-DTCodeChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5177D1C5ABE57017B197339C /* Pods-DTCodeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTCodeChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-DTCodeChallengeTests/Pods-DTCodeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		7261BC6F49F9A28C0357006D /* Pods-DTCodeChallenge-DTCodeChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTCodeChallenge-DTCodeChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-DTCodeChallenge-DTCodeChallengeUITests/Pods-DTCodeChallenge-DTCodeChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E2DD3D930DABBFF7B580FA8 /* Pods-DTCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTCodeChallenge.debug.xcconfig"; path = "Target Support Files/Pods-DTCodeChallenge/Pods-DTCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		AF279EDE28BF20BE0034AAB3 /* DTCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF279EE128BF20BE0034AAB3 /* DTCodeChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTCodeChallengeApp.swift; sourceTree = "<group>"; };
+		AF279EE328BF20BE0034AAB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF279EE528BF20C00034AAB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF279EE828BF20C00034AAB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF279EEE28BF20C00034AAB3 /* DTCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF279EF228BF20C00034AAB3 /* DTCodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTCodeChallengeTests.swift; sourceTree = "<group>"; };
+		AF279EF828BF20C00034AAB3 /* DTCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF279EFC28BF20C00034AAB3 /* DTCodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTCodeChallengeUITests.swift; sourceTree = "<group>"; };
+		AF279EFE28BF20C00034AAB3 /* DTCodeChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTCodeChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF5E9FA728BF2744004E88BD /* GoogleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
+		AF5E9FA928BF2F93004E88BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AF764A3528C0180500BA43EA /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		AFF1CF5328BF3E5B00CB0C8E /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		AFF1CF5528BF625400CB0C8E /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		B46AB6B4EA28F921660767E4 /* Pods_DTCodeChallenge_DTCodeChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTCodeChallenge_DTCodeChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E640B16A4315689812650847 /* Pods_DTCodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTCodeChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF279EDB28BF20BE0034AAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE3C5BBF16A8A42E2EEE4BD /* Pods_DTCodeChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF279EEB28BF20C00034AAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A559176C65348A17183A9431 /* Pods_DTCodeChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF279EF528BF20C00034AAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B08243025726ED9F6FDCB6 /* Pods_DTCodeChallenge_DTCodeChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CF64E62932AF4CA5194E911 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E2DD3D930DABBFF7B580FA8 /* Pods-DTCodeChallenge.debug.xcconfig */,
+				1E01CE94D29D91359643819E /* Pods-DTCodeChallenge.release.xcconfig */,
+				4E67393B31F4025033339B69 /* Pods-DTCodeChallenge-DTCodeChallengeUITests.debug.xcconfig */,
+				7261BC6F49F9A28C0357006D /* Pods-DTCodeChallenge-DTCodeChallengeUITests.release.xcconfig */,
+				1346F03AC1F4689FBE9E6B40 /* Pods-DTCodeChallengeTests.debug.xcconfig */,
+				5177D1C5ABE57017B197339C /* Pods-DTCodeChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF279ED528BF20BE0034AAB3 = {
+			isa = PBXGroup;
+			children = (
+				AF279EE028BF20BE0034AAB3 /* DTCodeChallenge */,
+				AF279EF128BF20C00034AAB3 /* DTCodeChallengeTests */,
+				AF279EFB28BF20C00034AAB3 /* DTCodeChallengeUITests */,
+				AF279EDF28BF20BE0034AAB3 /* Products */,
+				6CF64E62932AF4CA5194E911 /* Pods */,
+				E6C6720312C370C1BB22D1FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF279EDF28BF20BE0034AAB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF279EDE28BF20BE0034AAB3 /* DTCodeChallenge.app */,
+				AF279EEE28BF20C00034AAB3 /* DTCodeChallengeTests.xctest */,
+				AF279EF828BF20C00034AAB3 /* DTCodeChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF279EE028BF20BE0034AAB3 /* DTCodeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				AF5E9FA928BF2F93004E88BD /* Info.plist */,
+				AF279EE128BF20BE0034AAB3 /* DTCodeChallengeApp.swift */,
+				AF279EE328BF20BE0034AAB3 /* ContentView.swift */,
+				AF5E9FA728BF2744004E88BD /* GoogleMapView.swift */,
+				AFF1CF5328BF3E5B00CB0C8E /* DataModel.swift */,
+				AF764A3528C0180500BA43EA /* AnimationView.swift */,
+				AF279EE528BF20C00034AAB3 /* Assets.xcassets */,
+				AFF1CF5528BF625400CB0C8E /* data.json */,
+				AF279EE728BF20C00034AAB3 /* Preview Content */,
+			);
+			path = DTCodeChallenge;
+			sourceTree = "<group>";
+		};
+		AF279EE728BF20C00034AAB3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF279EE828BF20C00034AAB3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF279EF128BF20C00034AAB3 /* DTCodeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF279EF228BF20C00034AAB3 /* DTCodeChallengeTests.swift */,
+			);
+			path = DTCodeChallengeTests;
+			sourceTree = "<group>";
+		};
+		AF279EFB28BF20C00034AAB3 /* DTCodeChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF279EFC28BF20C00034AAB3 /* DTCodeChallengeUITests.swift */,
+				AF279EFE28BF20C00034AAB3 /* DTCodeChallengeUITestsLaunchTests.swift */,
+			);
+			path = DTCodeChallengeUITests;
+			sourceTree = "<group>";
+		};
+		E6C6720312C370C1BB22D1FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E640B16A4315689812650847 /* Pods_DTCodeChallenge.framework */,
+				B46AB6B4EA28F921660767E4 /* Pods_DTCodeChallenge_DTCodeChallengeUITests.framework */,
+				21574089317C3E8BC4B5D2F7 /* Pods_DTCodeChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF279EDD28BF20BE0034AAB3 /* DTCodeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF279F0228BF20C00034AAB3 /* Build configuration list for PBXNativeTarget "DTCodeChallenge" */;
+			buildPhases = (
+				B556E7F9F1AC94801219293E /* [CP] Check Pods Manifest.lock */,
+				AF279EDA28BF20BE0034AAB3 /* Sources */,
+				AF279EDB28BF20BE0034AAB3 /* Frameworks */,
+				AF279EDC28BF20BE0034AAB3 /* Resources */,
+				3BD4D8D3644A3EC08E6151D4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTCodeChallenge;
+			productName = DTCodeChallenge;
+			productReference = AF279EDE28BF20BE0034AAB3 /* DTCodeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF279EED28BF20C00034AAB3 /* DTCodeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF279F0528BF20C00034AAB3 /* Build configuration list for PBXNativeTarget "DTCodeChallengeTests" */;
+			buildPhases = (
+				BF6749D2A220703D384422C9 /* [CP] Check Pods Manifest.lock */,
+				AF279EEA28BF20C00034AAB3 /* Sources */,
+				AF279EEB28BF20C00034AAB3 /* Frameworks */,
+				AF279EEC28BF20C00034AAB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF279EF028BF20C00034AAB3 /* PBXTargetDependency */,
+			);
+			name = DTCodeChallengeTests;
+			productName = DTCodeChallengeTests;
+			productReference = AF279EEE28BF20C00034AAB3 /* DTCodeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF279EF728BF20C00034AAB3 /* DTCodeChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF279F0828BF20C00034AAB3 /* Build configuration list for PBXNativeTarget "DTCodeChallengeUITests" */;
+			buildPhases = (
+				A90F93C43BF1D72DFE6202F7 /* [CP] Check Pods Manifest.lock */,
+				AF279EF428BF20C00034AAB3 /* Sources */,
+				AF279EF528BF20C00034AAB3 /* Frameworks */,
+				AF279EF628BF20C00034AAB3 /* Resources */,
+				94C49608D7970B82ED0A270D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF279EFA28BF20C00034AAB3 /* PBXTargetDependency */,
+			);
+			name = DTCodeChallengeUITests;
+			productName = DTCodeChallengeUITests;
+			productReference = AF279EF828BF20C00034AAB3 /* DTCodeChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF279ED628BF20BE0034AAB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AF279EDD28BF20BE0034AAB3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AF279EED28BF20C00034AAB3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AF279EDD28BF20BE0034AAB3;
+					};
+					AF279EF728BF20C00034AAB3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AF279EDD28BF20BE0034AAB3;
+					};
+				};
+			};
+			buildConfigurationList = AF279ED928BF20BE0034AAB3 /* Build configuration list for PBXProject "DTCodeChallenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF279ED528BF20BE0034AAB3;
+			productRefGroup = AF279EDF28BF20BE0034AAB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF279EDD28BF20BE0034AAB3 /* DTCodeChallenge */,
+				AF279EED28BF20C00034AAB3 /* DTCodeChallengeTests */,
+				AF279EF728BF20C00034AAB3 /* DTCodeChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF279EDC28BF20BE0034AAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF279EE928BF20C00034AAB3 /* Preview Assets.xcassets in Resources */,
+				AFF1CF5628BF625400CB0C8E /* data.json in Resources */,
+				AF279EE628BF20C00034AAB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF279EEC28BF20C00034AAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF279EF628BF20C00034AAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BD4D8D3644A3EC08E6151D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DTCodeChallenge/Pods-DTCodeChallenge-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DTCodeChallenge/Pods-DTCodeChallenge-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DTCodeChallenge/Pods-DTCodeChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94C49608D7970B82ED0A270D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DTCodeChallenge-DTCodeChallengeUITests/Pods-DTCodeChallenge-DTCodeChallengeUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DTCodeChallenge-DTCodeChallengeUITests/Pods-DTCodeChallenge-DTCodeChallengeUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DTCodeChallenge-DTCodeChallengeUITests/Pods-DTCodeChallenge-DTCodeChallengeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A90F93C43BF1D72DFE6202F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DTCodeChallenge-DTCodeChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B556E7F9F1AC94801219293E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DTCodeChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF6749D2A220703D384422C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DTCodeChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF279EDA28BF20BE0034AAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5E9FA828BF2744004E88BD /* GoogleMapView.swift in Sources */,
+				AF764A3628C0180500BA43EA /* AnimationView.swift in Sources */,
+				AFF1CF5428BF3E5B00CB0C8E /* DataModel.swift in Sources */,
+				AF279EE428BF20BE0034AAB3 /* ContentView.swift in Sources */,
+				AF279EE228BF20BE0034AAB3 /* DTCodeChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF279EEA28BF20C00034AAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF279EF328BF20C00034AAB3 /* DTCodeChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF279EF428BF20C00034AAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF279EFD28BF20C00034AAB3 /* DTCodeChallengeUITests.swift in Sources */,
+				AF279EFF28BF20C00034AAB3 /* DTCodeChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF279EF028BF20C00034AAB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF279EDD28BF20BE0034AAB3 /* DTCodeChallenge */;
+			targetProxy = AF279EEF28BF20C00034AAB3 /* PBXContainerItemProxy */;
+		};
+		AF279EFA28BF20C00034AAB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF279EDD28BF20BE0034AAB3 /* DTCodeChallenge */;
+			targetProxy = AF279EF928BF20C00034AAB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF279F0028BF20C00034AAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF279F0128BF20C00034AAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF279F0328BF20C00034AAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2DD3D930DABBFF7B580FA8 /* Pods-DTCodeChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DTCodeChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWSSGRJU78;
+				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DTCodeChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dt.DTCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		AF279F0428BF20C00034AAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E01CE94D29D91359643819E /* Pods-DTCodeChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DTCodeChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWSSGRJU78;
+				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DTCodeChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = dt.DTCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+		AF279F0628BF20C00034AAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1346F03AC1F4689FBE9E6B40 /* Pods-DTCodeChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWSSGRJU78;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dt.DTCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTCodeChallenge.app/DTCodeChallenge";
+			};
+			name = Debug;
+		};
+		AF279F0728BF20C00034AAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5177D1C5ABE57017B197339C /* Pods-DTCodeChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWSSGRJU78;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dt.DTCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTCodeChallenge.app/DTCodeChallenge";
+			};
+			name = Release;
+		};
+		AF279F0928BF20C00034AAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E67393B31F4025033339B69 /* Pods-DTCodeChallenge-DTCodeChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWSSGRJU78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dt.DTCodeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DTCodeChallenge;
+			};
+			name = Debug;
+		};
+		AF279F0A28BF20C00034AAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7261BC6F49F9A28C0357006D /* Pods-DTCodeChallenge-DTCodeChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWSSGRJU78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dt.DTCodeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DTCodeChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF279ED928BF20BE0034AAB3 /* Build configuration list for PBXProject "DTCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF279F0028BF20C00034AAB3 /* Debug */,
+				AF279F0128BF20C00034AAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF279F0228BF20C00034AAB3 /* Build configuration list for PBXNativeTarget "DTCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF279F0328BF20C00034AAB3 /* Debug */,
+				AF279F0428BF20C00034AAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF279F0528BF20C00034AAB3 /* Build configuration list for PBXNativeTarget "DTCodeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF279F0628BF20C00034AAB3 /* Debug */,
+				AF279F0728BF20C00034AAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF279F0828BF20C00034AAB3 /* Build configuration list for PBXNativeTarget "DTCodeChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF279F0928BF20C00034AAB3 /* Debug */,
+				AF279F0A28BF20C00034AAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF279ED628BF20BE0034AAB3 /* Project object */;
+}
